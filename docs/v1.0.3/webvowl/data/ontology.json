@@ -131,10 +131,10 @@
     "id" : "4",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "37",
+    "id" : "8",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "8",
+    "id" : "37",
     "type" : "rdfs:Literal"
   }, {
     "id" : "11",
@@ -762,14 +762,14 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "37",
+    "id" : "8",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "8",
+    "id" : "37",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1313,7 +1313,7 @@
     "comment" : {
       "en" : "Date of formal issuance of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "2"
   }, {
     "iri" : "http://purl.org/dc/terms/modified",
@@ -1344,7 +1344,7 @@
     "comment" : {
       "en" : "Date on which the resource was changed."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "7"
   }, {
     "iri" : "http://purl.org/dc/terms/bibliographicCitation",
@@ -1375,7 +1375,7 @@
     "comment" : {
       "en" : "A bibliographic reference for the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "10"
   }, {
     "iri" : "http://purl.org/dc/terms/date",
@@ -1406,7 +1406,7 @@
     "comment" : {
       "en" : "A point or period of time associated with an event in the lifecycle of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "12"
   }, {
     "iri" : "https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation",
@@ -1438,7 +1438,7 @@
       "en" : "Example Inverse Relation"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "14"
   }, {
     "iri" : "http://purl.org/dc/terms/available",
@@ -1469,7 +1469,7 @@
     "comment" : {
       "en" : "Date that the resource became or will become available."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "16"
   }, {
     "range" : "20",
@@ -1520,7 +1520,7 @@
     "comment" : {
       "en" : "Date (often a range) of validity of a resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "28"
   }, {
     "iri" : "http://purl.org/dc/terms/dateSubmitted",
@@ -1551,7 +1551,7 @@
     "comment" : {
       "en" : "Date of submission of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "36"
   }, {
     "iri" : "http://purl.org/dc/terms/identifier",
@@ -1582,7 +1582,7 @@
     "comment" : {
       "en" : "An unambiguous reference to the resource within a given context."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "39"
   }, {
     "range" : "31",
@@ -1623,7 +1623,7 @@
     "comment" : {
       "en" : "Date of creation of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "46"
   }, {
     "range" : "6",
@@ -1659,7 +1659,7 @@
     "comment" : {
       "en" : "Date of acceptance of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "49"
   }, {
     "range" : "31",
@@ -1700,7 +1700,7 @@
       "en" : "Example Relation"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "15"
   }, {
     "domain" : "24",
@@ -1739,7 +1739,7 @@
     "comment" : {
       "en" : "An alternative name for the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "61"
   }, {
     "iri" : "http://purl.org/dc/terms/title",
@@ -1767,7 +1767,7 @@
     "comment" : {
       "en" : "A name given to the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "62"
   }, {
     "iri" : "http://purl.org/dc/terms/dateCopyrighted",
@@ -1798,7 +1798,7 @@
     "comment" : {
       "en" : "Date of copyright of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "63"
   } ]
 }
