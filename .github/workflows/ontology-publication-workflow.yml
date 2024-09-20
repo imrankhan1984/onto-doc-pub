@@ -6,7 +6,6 @@ on:
   push:
     branches:
     - main
-    - gh-pages
 # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -34,8 +33,10 @@ jobs:
            wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-11-widoco-1.4.17-jar-with-dependencies.jar
            mkdir public 
            mkdir public/v$ONTO_VERSION
-           java -jar widoco.jar -ontFile deploy_main/$ONTOLOGY_FILE_NAME -outFolder public/docs/v$ONTO_VERSION -htaccess -uniteSections -includeAnnotationProperties -lang en-fr -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
-           cp public/docs/v$ONTO_VERSION/index-en.html public/index.html
+           java -jar widoco.jar -ontFile deploy_main/$ONTOLOGY_FILE_NAME -outFolder deploy_main/docs/v$ONTO_VERSION -htaccess -uniteSections -includeAnnotationProperties -lang en-fr -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
+           cp deploy_main/docs/v$ONTO_VERSION/index-en.html deploy_main/index.html
+           cp deploy_main/docs/v$ONTO_VERSION/index-fr.html deploy_main/index-fr.html
+           cp deploy_main/docs/v$ONTO_VERSION/ontology.jsonld deploy_main/ontology.jsonld
     ## Fourth step: Publish HTML docs and ontology serializations to gh pages
     ##              maintaining other versions and
     ##              replacing the current version (if existing)
