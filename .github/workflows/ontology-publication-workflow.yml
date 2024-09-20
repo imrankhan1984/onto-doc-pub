@@ -6,8 +6,6 @@ on:
   push:
     branches:
     - main
-# Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 
 jobs:
   deploy:
@@ -31,8 +29,8 @@ jobs:
     - name: Build HTML for main
       run: | 
            wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-11-widoco-1.4.17-jar-with-dependencies.jar
-           mkdir public 
-           mkdir public/v$ONTO_VERSION
+           # mkdir public 
+           mkdir deploy_main/v$ONTO_VERSION
            java -jar widoco.jar -ontFile deploy_main/$ONTOLOGY_FILE_NAME -outFolder deploy_main/docs/v$ONTO_VERSION -htaccess -uniteSections -includeAnnotationProperties -lang en-fr -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
            cp deploy_main/docs/v$ONTO_VERSION/index-en.html deploy_main/index.html
            cp deploy_main/docs/v$ONTO_VERSION/index-fr.html deploy_main/index-fr.html
