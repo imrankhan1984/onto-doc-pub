@@ -16,16 +16,7 @@ jobs:
     - uses: actions/checkout@v3
       with:
         path: deploy_main
-    ## Second step: Use the get_ontoversion tool to get the current ontology version published in main
-    ## Usage of get_ontoversionversion.py:
-    ##   python get_ontoversionversion.py [-l L]
-    ##     -l L    Location of the ontology file
-    ##             default: main/ontology.ttl
-   ## - name: Get ontology version
-   ##   run: |
-   ##       pip install rdflib
-   ##        echo "ONTO_VERSION=$(python deploy_main/.github/workflows/get_ontoversion.py deploy_main/$ONTOLOGY_FILE_NAME)" >> "$GITHUB_ENV"
-    ## Third step: Build HTML and ontology serializations for the current version
+
     - name: Build HTML for main
       run: | 
            wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.25/widoco-1.4.25-jar-with-dependencies_JDK-17.jar
