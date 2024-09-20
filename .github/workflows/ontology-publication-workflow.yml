@@ -24,10 +24,10 @@ jobs:
     ##   python get_ontoversionversion.py [-l L]
     ##     -l L    Location of the ontology file
     ##             default: main/ontology.ttl
-    ##- name: Get ontology version
-    ##  run: |
-    ##       pip install rdflib
-    ##       echo "ONTO_VERSION=$(python deploy_main/.github/workflows/get_ontoversion.py deploy_main/$ONTOLOGY_FILE_NAME)" >> "$GITHUB_ENV"
+    - name: Get ontology version
+      run: |
+           pip install rdflib
+           echo "ONTO_VERSION=$(python deploy_main/.github/workflows/get_ontoversion.py deploy_main/$ONTOLOGY_FILE_NAME)" >> "$GITHUB_ENV"
     ## Third step: Build HTML and ontology serializations for the current version
     - name: Build HTML for main
       run: | 
@@ -41,7 +41,7 @@ jobs:
     ##              replacing the current version (if existing)
     - name: Deploy to GitHub Pages
       if: success()
-      uses: crazy-max/ghaction-github-pages@v3
+      uses: crazy-max/ghaction-github-pages@v4
       with:
         target_branch: gh-pages
         build_dir: public
