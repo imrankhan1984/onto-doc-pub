@@ -24,8 +24,8 @@ jobs:
    ## - name: Get ontology version
    ##   run: |
    ##       pip install rdflib
-   ##        echo "ONTO_VERSION=$(python deploy_main/.github/workflows/get_ontoversion.py deploy_main/$ONTOLOGY_FILE_NAME)" >> "$GITHUB_ENV"
-    ## Third step: Build HTML and ontology serializations for the current version
+      
+   ## Third step: Build HTML and ontology serializations for the current version
     - name: Build HTML for main
       run: | 
            wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.25/widoco-1.4.25-jar-with-dependencies_JDK-17.jar
