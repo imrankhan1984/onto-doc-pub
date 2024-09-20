@@ -16,7 +16,7 @@ jobs:
     if: github.ref_name == 'main'
     steps:
     ## First step: Checkout main from the repository
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         path: deploy_main
     ## Second step: Use the get_ontoversion tool to get the current ontology version published in main
