@@ -1,12 +1,12 @@
-name: Generate Ontology Documentation and copy gh-pages branch
+name: Deploy
 
 env:
   ONTOLOGY_FILE_NAME: ontology.ttl
 on:
   push:
     branches:
+    - develop
     - main
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -29,12 +29,10 @@ jobs:
     - name: Build HTML for main
       run: | 
            wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-11-widoco-1.4.17-jar-with-dependencies.jar
-           # mkdir public 
-           mkdir deploy_main/docs/v$ONTO_VERSION
-           java -jar widoco.jar -ontFile deploy_main/$ONTOLOGY_FILE_NAME -outFolder deploy_main/docs/v$ONTO_VERSION -htaccess -uniteSections -includeAnnotationProperties -lang en-fr -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
-           cp deploy_main/docs/v$ONTO_VERSION/index-en.html deploy_main/index.html
-           cp deploy_main/docs/v$ONTO_VERSION/index-fr.html deploy_main/index-fr.html
-           cp deploy_main/docs/v$ONTO_VERSION/ontology.jsonld deploy_main/ontology.jsonld
+           mkdir public 
+           mkdir public/v$ONTO_VERSION
+           java -jar widoco.jar -ontFile deploy_main/$ONTOLOGY_FILE_NAME -outFolder public/v$ONTO_VERSION -htaccess -uniteSections -includeAnnotationProperties -lang en-de -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
+           cp public/v$ONTO_VERSION/index-en.html public/v$ONTO_VERSION/index.html
     ## Fourth step: Publish HTML docs and ontology serializations to gh pages
     ##              maintaining other versions and
     ##              replacing the current version (if existing)
@@ -43,7 +41,7 @@ jobs:
       uses: crazy-max/ghaction-github-pages@v4
       with:
         target_branch: gh-pages
-        build_dir: deploy_main/docs/v$ONTO_VERSION
+        build_dir: public
         keep_history: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
