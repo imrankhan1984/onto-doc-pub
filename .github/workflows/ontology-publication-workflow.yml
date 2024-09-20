@@ -43,7 +43,7 @@ jobs:
       uses: crazy-max/ghaction-github-pages@v4
       with:
         target_branch: gh-pages
-        build_dir: public
+        build_dir: deploy_main/docs/v$ONTO_VERSION
         keep_history: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
