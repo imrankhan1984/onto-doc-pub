@@ -17,7 +17,7 @@
                                            It's meant as a blueprint for updating the partner projects ontologies and thus does not carry any relevant concepts. This 
                                            file is related to the github repository https://github.com/materialdigital/ontology_publication_template where there is 
                                            more information about how to work with this example."""@en ;
-                                      owl:versionInfo "1.0.2" .
+                                      owl:versionInfo "1.0.3" .
 
 #################################################################
 #    Annotation properties
