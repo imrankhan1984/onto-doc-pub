@@ -405,27 +405,6 @@
     "attributes" : [ "external" ],
     "id" : "39"
   }, {
-    "iri" : "http://purl.org/dc/terms/Policy",
-    "baseIri" : "http://purl.org/dc/terms",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://purl.org/dc/terms/",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Policy",
-      "en" : "Policy"
-    },
-    "comment" : {
-      "en" : "A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."
-    },
-    "attributes" : [ "external" ],
-    "id" : "42"
-  }, {
     "iri" : "http://purl.org/dc/terms/LinguisticSystem",
     "baseIri" : "http://purl.org/dc/terms",
     "instances" : 0,
@@ -446,6 +425,27 @@
     },
     "comment" : {
       "en" : "A system of signs, symbols, sounds, gestures, or rules used in communication."
+    },
+    "attributes" : [ "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://purl.org/dc/terms/Policy",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Policy",
+      "en" : "Policy"
+    },
+    "comment" : {
+      "en" : "A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."
     },
     "attributes" : [ "external" ],
     "id" : "43"
@@ -747,30 +747,6 @@
         "en" : "DCMI Type Vocabulary"
       }
     }, {
-      "iri" : "http://purl.org/dc/terms/IMT",
-      "baseIri" : "http://purl.org/dc/terms",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://purl.org/dc/terms/",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "http://www.iana.org/assignments/media-types/",
-          "type" : "iri"
-        } ]
-      },
-      "comment" : {
-        "en" : "The set of media types specified by the Internet Assigned Numbers Authority."
-      },
-      "labels" : {
-        "IRI-based" : "IMT",
-        "en" : "IMT"
-      }
-    }, {
       "iri" : "http://purl.org/dc/terms/DDC",
       "baseIri" : "http://purl.org/dc/terms",
       "annotations" : {
@@ -793,6 +769,30 @@
       "labels" : {
         "IRI-based" : "DDC",
         "en" : "DDC"
+      }
+    }, {
+      "iri" : "http://purl.org/dc/terms/IMT",
+      "baseIri" : "http://purl.org/dc/terms",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://purl.org/dc/terms/",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://www.iana.org/assignments/media-types/",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "The set of media types specified by the Internet Assigned Numbers Authority."
+      },
+      "labels" : {
+        "IRI-based" : "IMT",
+        "en" : "IMT"
       }
     }, {
       "iri" : "http://purl.org/dc/terms/UDC",
