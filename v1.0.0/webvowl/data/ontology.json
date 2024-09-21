@@ -3,9 +3,6 @@
   "header" : {
     "languages" : [ "en", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/pmd/ont_pub_tmplt", "http://purl.org/dc/dcam" ],
-    "title" : {
-      "en" : "Ontology Publication Template for the PMD"
-    },
     "iri" : "https://w3id.org/pmd/ont_pub_tmplt",
     "version" : "1.0.0",
     "author" : [ "https://orcid.org/0000-0000-0000-0000" ],
@@ -25,28 +22,10 @@
         "value" : "https://orcid.org/0000-0000-0000-0000",
         "type" : "iri"
       } ],
-      "created" : [ {
-        "identifier" : "created",
-        "language" : "undefined",
-        "value" : "2023-12-15",
-        "type" : "label"
-      } ],
-      "bibliographicCitation" : [ {
-        "identifier" : "bibliographicCitation",
-        "language" : "undefined",
-        "value" : "Doe J. (1960) Foo Ontology. Journal of Everything, 42(42), 3-42.",
-        "type" : "label"
-      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
         "value" : "1.0.0",
-        "type" : "label"
-      } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "en",
-        "value" : "Ontology Publication Template for the PMD",
         "type" : "label"
       } ]
     }
@@ -59,7 +38,7 @@
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "5",
     "type" : "owl:Class"
   }, {
     "id" : "9",
@@ -77,7 +56,7 @@
     "id" : "33",
     "type" : "owl:Class"
   }, {
-    "id" : "3",
+    "id" : "6",
     "type" : "owl:Class"
   }, {
     "id" : "38",
@@ -98,62 +77,62 @@
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "51",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "52",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "54",
-    "type" : "owl:Class"
+    "id" : "3",
+    "type" : "owl:Thing"
   }, {
     "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "50",
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "17",
+    "id" : "29",
     "type" : "rdfs:Literal"
   }, {
     "id" : "35",
     "type" : "owl:Class"
   }, {
+    "id" : "55",
+    "type" : "rdfs:Literal"
+  }, {
     "id" : "56",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "57",
     "type" : "owl:Class"
-  }, {
-    "id" : "29",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "6",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "37",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "8",
-    "type" : "rdfs:Literal"
   }, {
     "id" : "11",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "40",
+    "id" : "47",
     "type" : "rdfs:Literal"
   }, {
     "id" : "13",
     "type" : "rdfs:Literal"
   }, {
+    "id" : "50",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Literal"
+  }, {
     "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "47",
+    "id" : "4",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "5",
-    "type" : "owl:Thing"
+    "id" : "58",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Literal"
   }, {
     "id" : "59",
     "type" : "owl:Class"
@@ -180,12 +159,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -246,12 +219,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -262,8 +229,8 @@
       "en" : "A digital resource format."
     },
     "attributes" : [ "external" ],
-    "id" : "2",
-    "superClasses" : [ "3" ]
+    "id" : "5",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "http://purl.org/dc/terms/Frequency",
     "baseIri" : "http://purl.org/dc/terms",
@@ -274,12 +241,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -301,12 +262,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -328,12 +283,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -356,12 +305,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -384,12 +327,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -412,24 +349,18 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "MediaType",
       "en" : "Media Type"
     },
-    "subClasses" : [ "2", "22" ],
+    "subClasses" : [ "5", "22" ],
     "comment" : {
       "en" : "A file format or physical medium."
     },
     "attributes" : [ "external" ],
-    "id" : "3",
+    "id" : "6",
     "superClasses" : [ "20" ]
   }, {
     "iri" : "http://purl.org/dc/terms/MethodOfInstruction",
@@ -441,12 +372,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -468,12 +393,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -495,12 +414,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -525,12 +438,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -552,19 +459,13 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "MediaTypeOrExtent",
       "en" : "Media Type or Extent"
     },
-    "subClasses" : [ "19", "3" ],
+    "subClasses" : [ "19", "6" ],
     "comment" : {
       "en" : "A media type or extent."
     },
@@ -583,12 +484,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -600,48 +495,14 @@
     },
     "attributes" : [ "external" ],
     "id" : "22",
-    "superClasses" : [ "3" ]
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "51",
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "3",
     "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
+      "undefined" : "Thing"
     }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "52",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://purl.org/dc/terms/ProvenanceStatement",
-    "baseIri" : "http://purl.org/dc/terms",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://purl.org/dc/terms/",
-        "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ProvenanceStatement",
-      "en" : "Provenance Statement"
-    },
-    "comment" : {
-      "en" : "Any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."
-    },
-    "attributes" : [ "external" ],
-    "id" : "54"
   }, {
     "iri" : "http://purl.org/dc/terms/LicenseDocument",
     "baseIri" : "http://purl.org/dc/terms",
@@ -652,12 +513,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -671,15 +526,38 @@
     "id" : "31",
     "superClasses" : [ "30" ]
   }, {
+    "iri" : "http://purl.org/dc/terms/ProvenanceStatement",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ProvenanceStatement",
+      "en" : "Provenance Statement"
+    },
+    "comment" : {
+      "en" : "Any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "53"
+  }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "50",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "8",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "17",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "29",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -694,12 +572,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -714,7 +586,8 @@
     "superClasses" : [ "33" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "56",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "55",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -729,12 +602,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -745,37 +612,10 @@
       "en" : "A material thing."
     },
     "attributes" : [ "external" ],
-    "id" : "57"
+    "id" : "56"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "29",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "6",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "37",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "8",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
     "id" : "11",
     "label" : {
       "IRI-based" : "Literal",
@@ -783,14 +623,48 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "40",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "47",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
     "id" : "13",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "40",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -805,12 +679,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -825,17 +693,27 @@
     "superClasses" : [ "33" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "47",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "4",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "5",
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "58",
     "label" : {
-      "undefined" : "Thing"
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
     }
   }, {
     "iri" : "http://purl.org/dc/dcam/VocabularyEncodingScheme",
@@ -853,12 +731,6 @@
           "language" : "undefined",
           "value" : "http://purl.org/dc/terms/",
           "type" : "iri"
-        } ],
-        "issued" : [ {
-          "identifier" : "issued",
-          "language" : "undefined",
-          "value" : "2000-07-11",
-          "type" : "label"
         } ],
         "seeAlso" : [ {
           "identifier" : "seeAlso",
@@ -884,12 +756,6 @@
           "value" : "http://purl.org/dc/terms/",
           "type" : "iri"
         } ],
-        "issued" : [ {
-          "identifier" : "issued",
-          "language" : "undefined",
-          "value" : "2000-07-11",
-          "type" : "label"
-        } ],
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
@@ -913,12 +779,6 @@
           "language" : "undefined",
           "value" : "http://purl.org/dc/terms/",
           "type" : "iri"
-        } ],
-        "issued" : [ {
-          "identifier" : "issued",
-          "language" : "undefined",
-          "value" : "2000-07-11",
-          "type" : "label"
         } ],
         "seeAlso" : [ {
           "identifier" : "seeAlso",
@@ -944,12 +804,6 @@
           "value" : "http://purl.org/dc/terms/",
           "type" : "iri"
         } ],
-        "issued" : [ {
-          "identifier" : "issued",
-          "language" : "undefined",
-          "value" : "2000-07-11",
-          "type" : "label"
-        } ],
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
@@ -973,12 +827,6 @@
           "language" : "undefined",
           "value" : "http://purl.org/dc/terms/",
           "type" : "iri"
-        } ],
-        "issued" : [ {
-          "identifier" : "issued",
-          "language" : "undefined",
-          "value" : "2000-07-11",
-          "type" : "label"
         } ]
       },
       "comment" : {
@@ -997,12 +845,6 @@
           "language" : "undefined",
           "value" : "http://purl.org/dc/terms/",
           "type" : "iri"
-        } ],
-        "issued" : [ {
-          "identifier" : "issued",
-          "language" : "undefined",
-          "value" : "2000-07-11",
-          "type" : "label"
         } ],
         "seeAlso" : [ {
           "identifier" : "seeAlso",
@@ -1028,12 +870,6 @@
           "value" : "http://purl.org/dc/terms/",
           "type" : "iri"
         } ],
-        "issued" : [ {
-          "identifier" : "issued",
-          "language" : "undefined",
-          "value" : "2000-07-11",
-          "type" : "label"
-        } ],
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
@@ -1058,12 +894,6 @@
           "value" : "http://purl.org/dc/terms/",
           "type" : "iri"
         } ],
-        "issued" : [ {
-          "identifier" : "issued",
-          "language" : "undefined",
-          "value" : "2005-06-13",
-          "type" : "label"
-        } ],
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
@@ -1087,12 +917,6 @@
           "language" : "undefined",
           "value" : "http://purl.org/dc/terms/",
           "type" : "iri"
-        } ],
-        "issued" : [ {
-          "identifier" : "issued",
-          "language" : "undefined",
-          "value" : "2000-07-11",
-          "type" : "label"
         } ],
         "seeAlso" : [ {
           "identifier" : "seeAlso",
@@ -1124,12 +948,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -1162,12 +980,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -1190,12 +1002,6 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -1209,7 +1015,7 @@
     "id" : "60"
   } ],
   "property" : [ {
-    "id" : "4",
+    "id" : "2",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "7",
@@ -1263,17 +1069,17 @@
     "id" : "49",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "53",
+    "id" : "51",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "52",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "55",
+    "id" : "54",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "15",
     "type" : "owl:objectProperty"
-  }, {
-    "id" : "58",
-    "type" : "rdf:Property"
   }, {
     "id" : "61",
     "type" : "owl:datatypeProperty"
@@ -1287,7 +1093,7 @@
   "propertyAttribute" : [ {
     "iri" : "http://purl.org/dc/terms/issued",
     "baseIri" : "http://purl.org/dc/terms",
-    "range" : "6",
+    "range" : "4",
     "description" : {
       "en" : "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."
     },
@@ -1297,24 +1103,18 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2000-07-11",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "issued",
       "en" : "Date Issued"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date of formal issuance of the resource."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "4"
+    "id" : "2"
   }, {
     "iri" : "http://purl.org/dc/terms/modified",
     "baseIri" : "http://purl.org/dc/terms",
@@ -1328,19 +1128,13 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2000-07-11",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "modified",
       "en" : "Date Modified"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date on which the resource was changed."
     },
@@ -1359,19 +1153,13 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2003-02-15",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "bibliographicCitation",
       "en" : "Bibliographic Citation"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "A bibliographic reference for the resource."
     },
@@ -1390,19 +1178,13 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "date",
       "en" : "Date"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "A point or period of time associated with an event in the lifecycle of the resource."
     },
@@ -1438,7 +1220,7 @@
       "en" : "Example Inverse Relation"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "14"
   }, {
     "iri" : "http://purl.org/dc/terms/available",
@@ -1453,19 +1235,13 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2000-07-11",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "available",
       "en" : "Date Available"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date that the resource became or will become available."
     },
@@ -1474,22 +1250,22 @@
   }, {
     "range" : "20",
     "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
-    "range" : "3",
+    "range" : "6",
     "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "21"
   }, {
     "range" : "25",
     "domain" : "24",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "23"
   }, {
     "range" : "20",
-    "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "26"
   }, {
     "iri" : "http://purl.org/dc/terms/valid",
@@ -1504,19 +1280,13 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2000-07-11",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "valid",
       "en" : "Date Valid"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date (often a range) of validity of a resource."
     },
@@ -1535,19 +1305,13 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2002-07-13",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "dateSubmitted",
       "en" : "Date Submitted"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date of submission of the resource."
     },
@@ -1566,19 +1330,13 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "identifier",
       "en" : "Identifier"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "An unambiguous reference to the resource within a given context."
     },
@@ -1587,12 +1345,12 @@
   }, {
     "range" : "33",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "44"
   }, {
     "range" : "33",
     "domain" : "34",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "45"
   }, {
     "iri" : "http://purl.org/dc/terms/created",
@@ -1607,28 +1365,22 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2000-07-11",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "created",
       "en" : "Date Created"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date of creation of the resource."
     },
     "attributes" : [ "external", "datatype" ],
     "id" : "46"
   }, {
-    "range" : "3",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "48"
   }, {
     "iri" : "http://purl.org/dc/terms/dateAccepted",
@@ -1643,34 +1395,36 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2002-07-13",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "dateAccepted",
       "en" : "Date Accepted"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date of acceptance of the resource."
     },
     "attributes" : [ "external", "datatype" ],
     "id" : "49"
   }, {
+    "domain" : "24",
+    "range" : "41",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "13",
+      "undefined" : "is a"
+    }
+  }, {
     "range" : "33",
     "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "53"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
   }, {
     "range" : "30",
     "domain" : "31",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "55"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
   }, {
     "iri" : "https://w3id.org/pmd/ont_pub_tmplt/exampleRelation",
     "baseIri" : "https://w3id.org/pmd/ont_pub_tmplt",
@@ -1700,20 +1454,12 @@
       "en" : "Example Relation"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "15"
-  }, {
-    "domain" : "24",
-    "range" : "41",
-    "id" : "58",
-    "label" : {
-      "IRI-based" : "0",
-      "undefined" : "is a"
-    }
   }, {
     "iri" : "http://purl.org/dc/terms/alternative",
     "baseIri" : "http://purl.org/dc/terms",
-    "range" : "56",
+    "range" : "58",
     "description" : {
       "en" : "The distinction between titles and alternative titles is application-specific."
     },
@@ -1723,19 +1469,13 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2000-07-11",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "alternative",
       "en" : "Alternative Title"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "An alternative name for the resource."
     },
@@ -1744,26 +1484,20 @@
   }, {
     "iri" : "http://purl.org/dc/terms/title",
     "baseIri" : "http://purl.org/dc/terms",
-    "range" : "52",
+    "range" : "55",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2008-01-14",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "title",
       "en" : "Title"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "A name given to the resource."
     },
@@ -1772,7 +1506,7 @@
   }, {
     "iri" : "http://purl.org/dc/terms/dateCopyrighted",
     "baseIri" : "http://purl.org/dc/terms",
-    "range" : "51",
+    "range" : "57",
     "description" : {
       "en" : "Typically a year.  Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."
     },
@@ -1782,19 +1516,13 @@
         "language" : "undefined",
         "value" : "http://purl.org/dc/terms/",
         "type" : "iri"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2002-07-13",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "dateCopyrighted",
       "en" : "Date Copyrighted"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date of copyright of the resource."
     },
