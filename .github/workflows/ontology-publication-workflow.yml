@@ -38,11 +38,11 @@ jobs:
     ##              replacing the current version (if existing)
     - name: Deploy to GitHub Pages
       if: success()
-      uses: JamesIves/github-pages-deploy-action@v4
+      uses: crazy-max/ghaction-github-pages@v4
       with:
-        branch: main
-        build: public
-        folder: docs
+        target_branch: main
+        build_dir: public
+        keep_history: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
