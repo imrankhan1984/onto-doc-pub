@@ -23,14 +23,14 @@ jobs:
     - name: Get ontology version
       run: |
            pip install rdflib
-           echo "ONTO_VERSION=$(python deploy_main/.github/workflows/get_ontoversion.py deploy_main/$ONTOLOGY_FILE_NAME)" >> "$GITHUB_ENV"
+           echo "ONTO_VERSION=$(python deploy_main/.github/workflows/get_ontoversion.py deploy_main/ontology/$ONTOLOGY_FILE_NAME)" >> "$GITHUB_ENV"
     ## Third step: Build HTML and ontology serializations for the current version
     - name: Build HTML for main
       run: | 
            wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-11-widoco-1.4.17-jar-with-dependencies.jar
            mkdir public 
            mkdir public/v$ONTO_VERSION
-           java -jar widoco.jar -ontFile deploy_main/$ONTOLOGY_FILE_NAME -outFolder public/v$ONTO_VERSION -htaccess -uniteSections -includeAnnotationProperties -lang en-fr -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
+           java -jar widoco.jar -ontFile deploy_main/ontology/$ONTOLOGY_FILE_NAME -outFolder public/v$ONTO_VERSION -htaccess -uniteSections -includeAnnotationProperties -lang en-fr -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
            cp public/v$ONTO_VERSION/index-en.html public/v$ONTO_VERSION/index.html
            cp public/v$ONTO_VERSION/*.* public/
     ## Fourth step: Publish HTML docs and ontology serializations to gh pages
