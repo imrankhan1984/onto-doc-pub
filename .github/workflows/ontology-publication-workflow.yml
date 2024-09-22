@@ -30,11 +30,11 @@ jobs:
            wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-11-widoco-1.4.17-jar-with-dependencies.jar
            mkdir public
            mkdir public/docs
-           mkdir public/docs/website
+           mkdir public/docs/website_content
            mkdir public/docs/v$ONTO_VERSION
            java -jar widoco.jar -ontFile deploy_main/ontology/$ONTOLOGY_FILE_NAME -outFolder public/docs/v$ONTO_VERSION -htaccess -uniteSections -includeAnnotationProperties -lang en-fr -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
            cp public/docs/v$ONTO_VERSION/index-en.html public/docs/v$ONTO_VERSION/index.html
-           cp -r public/docs/v$ONTO_VERSION/* public/docs/website
+           cp -r public/docs/v$ONTO_VERSION/* public/docs/website_content
            
     ## Fourth step: Publish HTML docs and ontology serializations to gh pages
     ##              maintaining other versions and
