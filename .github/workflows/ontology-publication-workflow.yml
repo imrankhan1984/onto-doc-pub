@@ -27,7 +27,7 @@ jobs:
     ## Third step: Build HTML and ontology serializations for the current version
     - name: Build HTML for main
       run: | 
-           wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-11-widoco-1.4.17-jar-with-dependencies.jar
+           wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.25/widoco-1.4.25-jar-with-dependencies_JDK-17.jar
            mkdir public
            mkdir public/docs
            mkdir public/docs/website_content
