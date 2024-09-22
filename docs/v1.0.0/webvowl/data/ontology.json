@@ -38,7 +38,7 @@
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "5",
     "type" : "owl:Class"
   }, {
     "id" : "9",
@@ -53,16 +53,16 @@
     "id" : "32",
     "type" : "owl:Class"
   }, {
-    "id" : "33",
+    "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "3",
+    "id" : "6",
     "type" : "owl:Class"
   }, {
     "id" : "38",
     "type" : "owl:Class"
   }, {
-    "id" : "39",
+    "id" : "41",
     "type" : "owl:Class"
   }, {
     "id" : "42",
@@ -77,13 +77,13 @@
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "3",
     "type" : "owl:Thing"
   }, {
-    "id" : "53",
+    "id" : "33",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "53",
     "type" : "owl:Class"
   }, {
     "id" : "8",
@@ -119,13 +119,13 @@
     "id" : "37",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "41",
+    "id" : "40",
     "type" : "rdfs:Literal"
   }, {
     "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
+    "id" : "4",
     "type" : "rdfs:Literal"
   }, {
     "id" : "58",
@@ -229,8 +229,8 @@
       "en" : "A digital resource format."
     },
     "attributes" : [ "external" ],
-    "id" : "2",
-    "superClasses" : [ "3" ]
+    "id" : "5",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "http://purl.org/dc/terms/Frequency",
     "baseIri" : "http://purl.org/dc/terms",
@@ -274,28 +274,6 @@
     "attributes" : [ "external" ],
     "id" : "27"
   }, {
-    "iri" : "http://purl.org/dc/terms/RightsStatement",
-    "baseIri" : "http://purl.org/dc/terms",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://purl.org/dc/terms/",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "RightsStatement",
-      "en" : "Rights Statement"
-    },
-    "subClasses" : [ "31" ],
-    "comment" : {
-      "en" : "A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights."
-    },
-    "attributes" : [ "external" ],
-    "id" : "30"
-  }, {
     "iri" : "http://purl.org/dc/terms/Jurisdiction",
     "baseIri" : "http://purl.org/dc/terms",
     "instances" : 0,
@@ -315,8 +293,30 @@
       "en" : "The extent or range of judicial, law enforcement, or other authority."
     },
     "attributes" : [ "external" ],
-    "id" : "32",
-    "superClasses" : [ "33" ]
+    "id" : "30",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://purl.org/dc/terms/RightsStatement",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RightsStatement",
+      "en" : "Rights Statement"
+    },
+    "subClasses" : [ "33" ],
+    "comment" : {
+      "en" : "A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights."
+    },
+    "attributes" : [ "external" ],
+    "id" : "32"
   }, {
     "iri" : "http://purl.org/dc/terms/LocationPeriodOrJurisdiction",
     "baseIri" : "http://purl.org/dc/terms",
@@ -333,12 +333,12 @@
       "IRI-based" : "LocationPeriodOrJurisdiction",
       "en" : "Location, Period, or Jurisdiction"
     },
-    "subClasses" : [ "32", "34", "35" ],
+    "subClasses" : [ "30", "34", "35" ],
     "comment" : {
       "en" : "A location, period of time, or jurisdiction."
     },
     "attributes" : [ "external" ],
-    "id" : "33"
+    "id" : "31"
   }, {
     "iri" : "http://purl.org/dc/terms/MediaType",
     "baseIri" : "http://purl.org/dc/terms",
@@ -355,12 +355,12 @@
       "IRI-based" : "MediaType",
       "en" : "Media Type"
     },
-    "subClasses" : [ "2", "22" ],
+    "subClasses" : [ "5", "22" ],
     "comment" : {
       "en" : "A file format or physical medium."
     },
     "attributes" : [ "external" ],
-    "id" : "3",
+    "id" : "6",
     "superClasses" : [ "20" ]
   }, {
     "iri" : "http://purl.org/dc/terms/MethodOfInstruction",
@@ -403,28 +403,7 @@
       "en" : "A resource that acts or has the power to act."
     },
     "attributes" : [ "external" ],
-    "id" : "39"
-  }, {
-    "iri" : "http://purl.org/dc/terms/Policy",
-    "baseIri" : "http://purl.org/dc/terms",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://purl.org/dc/terms/",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Policy",
-      "en" : "Policy"
-    },
-    "comment" : {
-      "en" : "A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."
-    },
-    "attributes" : [ "external" ],
-    "id" : "42"
+    "id" : "41"
   }, {
     "iri" : "http://purl.org/dc/terms/LinguisticSystem",
     "baseIri" : "http://purl.org/dc/terms",
@@ -448,6 +427,27 @@
       "en" : "A system of signs, symbols, sounds, gestures, or rules used in communication."
     },
     "attributes" : [ "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://purl.org/dc/terms/Policy",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Policy",
+      "en" : "Policy"
+    },
+    "comment" : {
+      "en" : "A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."
+    },
+    "attributes" : [ "external" ],
     "id" : "43"
   }, {
     "iri" : "http://purl.org/dc/terms/MediaTypeOrExtent",
@@ -465,7 +465,7 @@
       "IRI-based" : "MediaTypeOrExtent",
       "en" : "Media Type or Extent"
     },
-    "subClasses" : [ "19", "3" ],
+    "subClasses" : [ "19", "6" ],
     "comment" : {
       "en" : "A media type or extent."
     },
@@ -495,14 +495,36 @@
     },
     "attributes" : [ "external" ],
     "id" : "22",
-    "superClasses" : [ "3" ]
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "5",
+    "id" : "3",
     "label" : {
       "undefined" : "Thing"
     }
+  }, {
+    "iri" : "http://purl.org/dc/terms/LicenseDocument",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LicenseDocument",
+      "en" : "License Document"
+    },
+    "comment" : {
+      "en" : "A legal document giving official permission to do something with a resource."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "32" ]
   }, {
     "iri" : "http://purl.org/dc/terms/ProvenanceStatement",
     "baseIri" : "http://purl.org/dc/terms",
@@ -524,28 +546,6 @@
     },
     "attributes" : [ "external" ],
     "id" : "53"
-  }, {
-    "iri" : "http://purl.org/dc/terms/LicenseDocument",
-    "baseIri" : "http://purl.org/dc/terms",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://purl.org/dc/terms/",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "LicenseDocument",
-      "en" : "License Document"
-    },
-    "comment" : {
-      "en" : "A legal document giving official permission to do something with a resource."
-    },
-    "attributes" : [ "external" ],
-    "id" : "31",
-    "superClasses" : [ "30" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
@@ -583,7 +583,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "35",
-    "superClasses" : [ "33" ]
+    "superClasses" : [ "31" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
@@ -664,7 +664,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "41",
+    "id" : "40",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -690,11 +690,11 @@
     },
     "attributes" : [ "external" ],
     "id" : "34",
-    "superClasses" : [ "33" ]
+    "superClasses" : [ "31" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "6",
+    "id" : "4",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1015,7 +1015,7 @@
     "id" : "60"
   } ],
   "property" : [ {
-    "id" : "4",
+    "id" : "2",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "7",
@@ -1051,7 +1051,7 @@
     "id" : "36",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "40",
+    "id" : "39",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "44",
@@ -1093,7 +1093,7 @@
   "propertyAttribute" : [ {
     "iri" : "http://purl.org/dc/terms/issued",
     "baseIri" : "http://purl.org/dc/terms",
-    "range" : "6",
+    "range" : "4",
     "description" : {
       "en" : "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."
     },
@@ -1109,12 +1109,12 @@
       "IRI-based" : "issued",
       "en" : "Date Issued"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date of formal issuance of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "4"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "2"
   }, {
     "iri" : "http://purl.org/dc/terms/modified",
     "baseIri" : "http://purl.org/dc/terms",
@@ -1134,11 +1134,11 @@
       "IRI-based" : "modified",
       "en" : "Date Modified"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date on which the resource was changed."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "7"
   }, {
     "iri" : "http://purl.org/dc/terms/bibliographicCitation",
@@ -1159,11 +1159,11 @@
       "IRI-based" : "bibliographicCitation",
       "en" : "Bibliographic Citation"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "A bibliographic reference for the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "10"
   }, {
     "iri" : "http://purl.org/dc/terms/date",
@@ -1184,11 +1184,11 @@
       "IRI-based" : "date",
       "en" : "Date"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "A point or period of time associated with an event in the lifecycle of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "12"
   }, {
     "iri" : "https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation",
@@ -1241,11 +1241,11 @@
       "IRI-based" : "available",
       "en" : "Date Available"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date that the resource became or will become available."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "16"
   }, {
     "range" : "20",
@@ -1253,7 +1253,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
-    "range" : "3",
+    "range" : "6",
     "domain" : "22",
     "attributes" : [ "object", "anonymous" ],
     "id" : "21"
@@ -1264,7 +1264,7 @@
     "id" : "23"
   }, {
     "range" : "20",
-    "domain" : "3",
+    "domain" : "6",
     "attributes" : [ "object", "anonymous" ],
     "id" : "26"
   }, {
@@ -1286,11 +1286,11 @@
       "IRI-based" : "valid",
       "en" : "Date Valid"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date (often a range) of validity of a resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "28"
   }, {
     "iri" : "http://purl.org/dc/terms/dateSubmitted",
@@ -1311,16 +1311,16 @@
       "IRI-based" : "dateSubmitted",
       "en" : "Date Submitted"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date of submission of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "36"
   }, {
     "iri" : "http://purl.org/dc/terms/identifier",
     "baseIri" : "http://purl.org/dc/terms",
-    "range" : "41",
+    "range" : "40",
     "description" : {
       "en" : "Recommended practice is to identify the resource by means of a string conforming to an identification system. Examples include International Standard Book Number (ISBN), Digital Object Identifier (DOI), and Uniform Resource Name (URN).  Persistent identifiers should be provided as HTTP URIs."
     },
@@ -1336,19 +1336,19 @@
       "IRI-based" : "identifier",
       "en" : "Identifier"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "An unambiguous reference to the resource within a given context."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "40"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "39"
   }, {
-    "range" : "33",
+    "range" : "31",
     "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "44"
   }, {
-    "range" : "33",
+    "range" : "31",
     "domain" : "34",
     "attributes" : [ "object", "anonymous" ],
     "id" : "45"
@@ -1371,15 +1371,15 @@
       "IRI-based" : "created",
       "en" : "Date Created"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date of creation of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "46"
   }, {
-    "range" : "3",
-    "domain" : "2",
+    "range" : "6",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "48"
   }, {
@@ -1401,28 +1401,28 @@
       "IRI-based" : "dateAccepted",
       "en" : "Date Accepted"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date of acceptance of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "49"
   }, {
     "domain" : "24",
-    "range" : "39",
+    "range" : "41",
     "id" : "51",
     "label" : {
       "IRI-based" : "13",
       "undefined" : "is a"
     }
   }, {
-    "range" : "33",
-    "domain" : "32",
+    "range" : "31",
+    "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "52"
   }, {
-    "range" : "30",
-    "domain" : "31",
+    "range" : "32",
+    "domain" : "33",
     "attributes" : [ "object", "anonymous" ],
     "id" : "54"
   }, {
@@ -1475,11 +1475,11 @@
       "IRI-based" : "alternative",
       "en" : "Alternative Title"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "An alternative name for the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "61"
   }, {
     "iri" : "http://purl.org/dc/terms/title",
@@ -1497,11 +1497,11 @@
       "IRI-based" : "title",
       "en" : "Title"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "A name given to the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "62"
   }, {
     "iri" : "http://purl.org/dc/terms/dateCopyrighted",
@@ -1522,11 +1522,11 @@
       "IRI-based" : "dateCopyrighted",
       "en" : "Date Copyrighted"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "Date of copyright of the resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "63"
   } ]
 }
