@@ -48,8 +48,4 @@ jobs:
         keep_history: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    ## Fifth step: Copy all the documents and folder generated in /v$ONTO_VERSION to the docs folder so that the documents of the new version can be served via Github pages
-    ## - name: Copy new version documentation to Docs folder
-    ##  run: |
            
